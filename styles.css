@@ -1,0 +1,41 @@
+
+header {
+    display: flex; /* in one line */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: 'Nunito', sans-serif;
+    color: #612999;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* רווח בין הלוגו לטקסט */
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+
+nav a {
+    /*margin-left: 15px;*/
+    text-decoration: none;
+    color: #612999;;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #9b59b6; /* סגול */
+}
