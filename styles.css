@@ -1,10 +1,16 @@
 header {
-    display: flex; /* in one line */
+    /*display: flex; /* in one line 
     justify-content: space-between;
-    align-items: center;
+    align-items: center;*/
     padding: 10px 20px;
     font-family: 'Nunito', sans-serif;
     color: #612999;
+}
+
+header .wrapper {
+    display: flex; /* in one line */
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -103,4 +109,26 @@ footer {
     margin: 0;
     margin-top: 2px;
     font-size: 18px;
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.about {
+    padding: 40px 20px;
+    font-family: 'Rubik', sans-serif;
+}
+.about h2
+{
+    color: #612999;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.about p {
+    margin-bottom: 15px;
+    max-width: 700px;
+    line-height: 1.6;
 }
