@@ -205,3 +205,17 @@ footer {
     height: 40px;
     object-fit: contain;
 }
+
+/*------------------second page-----------------------*/
+.product-gallery {
+    display: flex;
+    gap: 32px;
+    margin-top: 32px;
+}
+.product-gallery img {
+    height: 300px;
+    width: calc((100% - 64px) / 3);
+    border: 4px solid #E6DBFE;
+    box-sizing: border-box;
+    object-fit: cover;
+}
