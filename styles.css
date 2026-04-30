@@ -219,3 +219,28 @@ footer {
     box-sizing: border-box;
     object-fit: cover;
 }
+
+.jewelry-list {
+    margin-top: 32px;
+    font-family: 'Rubik', sans-serif;
+}
+.jewelry-list ul {
+    list-style: none; /* מוריד נקודות */
+    padding: 0;
+}
+.jewelry-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+.jewelry-list img {
+    width: 40px;
+    height: 40px;
+}
+.jewelry-list h2 {
+    color: #612999;
+}
+.jewelry-list span {
+    color: black;
+}
